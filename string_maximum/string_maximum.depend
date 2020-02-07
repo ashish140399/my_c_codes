@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1581099001 source:d:\c\string_maximum\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
