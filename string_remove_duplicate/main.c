@@ -12,7 +12,7 @@ int main()
     char mystringtemp[80];
     static int myarrayloc[80];
     scanf("%s",mystring);
-    strl=strlen(mystring);
+    strl=strlen(mystring)
     for(i=0;i<strl;i++)
     {
         loc = (int)mystring[i];

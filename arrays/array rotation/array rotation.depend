@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1581104635 source:d:\c\trial12\main.c
+1585308375 source:d:\c\arrays\array rotation\main.c
 	<stdio.h>
 	<stdlib.h>
-	<string.h>
 

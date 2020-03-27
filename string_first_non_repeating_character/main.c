@@ -29,14 +29,15 @@ int main()
                 temp_count++;;
             }
         }
-        if(temp_count>datasaver.count)
+        if(temp_count==1)
         {
             datasaver.count=temp_count;
             datasaver.alpha=temp_char;
+            break;
         }
     }
-    if(datasaver.count>1)
-        printf("maximum no of character is %c having a count of %d\n",datasaver.alpha,datasaver.count);
+    if(datasaver.count==1)
+        printf("First non repeating character is %c having a count of %d\n",datasaver.alpha,datasaver.count);
     else
         printf("no maximum character");
     return 0;

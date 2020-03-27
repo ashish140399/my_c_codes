@@ -20,7 +20,6 @@ int main()
         locip++;
         myarrayloc[loc]=locip;
 
-
     }
     for( i=0;i<strl;i++)
     {
